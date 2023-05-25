@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <?php include_once 'data.php'; ?>
+    <?php include_once './data.php'; ?>
 
-    <form class="caja" action="../index.html" method="get">
+    <form class="caja" action="index.php" method="get">
         <h1 class="resultado">Calculadora con PHP</h1>
         
         <label class="datos" for="datos">Primer Numero</label>

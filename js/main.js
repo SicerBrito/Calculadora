@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "../scripts/index.php",
+        url: "./scripts/index.php",
         type: "GET",
         success: function(response) {
             $("#data-container").html(response);
