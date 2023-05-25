@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Calculadora</title>
-    <link rel="shortcut icon" href="calculadora.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img/calculadora.png">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <?php include_once 'data.php'; ?>
 
-    <form class="caja" action="index.php" method="get">
+    <form class="caja" action="../index.html" method="get">
         <h1 class="resultado">Calculadora con PHP</h1>
         
         <label class="datos" for="datos">Primer Numero</label>
